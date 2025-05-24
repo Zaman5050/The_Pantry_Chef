@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asserts/the-pantry-chef.css">
+    <link rel="stylesheet" href="asserts/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="asserts/responsive.css">
+    <link rel="icon" type="Logo" href="asserts/images/main-icon.svg">
+    <meta name="description" content="meal planning and tracking app">
+    <link rel="canonical" href="about.html">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="page-container">
+        <nav>
+            <div class="navbar-container">
+                <img alt="The Pantry Chef Logo" src="asserts/images/main-icon.svg">
+                <ul class="navbar-links mb-0">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="case-study.html">Case Study</a></li>
+                    <li><a href="how-we-think.html">How We Think</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                 <!------------------------------ navbar hamburger menue----------------------------------------->
+                 <nav id="navbar-hamburger-menue" role='navigation'>
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <a href="home.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="about.html">
+                                <li>About</li>
+                            </a>
+                            <a href="case-study.html">
+                                <li>Case Study</li>
+                            </a>
+                            <a href="how-we-think.html">
+                                <li>How We Think</li>
+                            </a>
+                            <a href="contact-us.html">
+                                <li>Contact Us</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- ---------------------------------------------------------------------------------------- -->
+            </div>
+        </nav>
+        <div class="contact-us-container">
+            <form>
+                <div class="form-container">
+                    <input class="contact-us-input-fields" placeholder="Your Full Name" type="text">
+                    <input class="contact-us-input-fields" placeholder="Your Email Address" type="text">
+                    <input id="phone" class="contact-us-input-fields" placeholder="" type="tel">
+                    <textarea class="contact-us-input-fields form-text-field" placeholder="Your message"></textarea>
+                    <button class="send-button">Send</button>
+                </div>
+                
+            </form>
+            <div>
+                <h3 class="about-sub-heading contact-us-heading p-0 mb-5">CONTACT US</h3>
+                <div class="contact-us-inner-icons-container">
+                    <div style="gap:16px;" class="website-link d-flex align-items-center">
+                        <img alt="Website icon" src="asserts/images/global-icon.svg">
+                        <a href="https://ilsainteractive.com/">www.ilsainteractive.com</a>
+                    </div>
+                    <div style="gap:16px;" class="e-mail d-flex align-items-center">
+                        <img alt="E-mail icon" src="asserts/images/message-icon.svg">
+                       <span class="img-details">info@ilsainteractive.com</span>
+                    </div>
+                    <div style="gap:16px;" class="phone-number d-flex align-items-center">
+                        <img alt="phone icon" src="asserts/images/tell-icon.svg">
+                        <span class="img-details">0300-8483876</span>
+                    </div>
+                </div>
+                <div class="mt-5 mb-5">
+                    <a class="social-media-icons" href="https://www.linkedin.com/company/ilsainteractive/"><img style="margin-right: 15px;" alt="linkedin icon" src="asserts/images/linkedin-icon.svg"></a>
+                    <a class="social-media-icons" href="https://www.facebook.com/ilsainteractive23"><img style="margin-right: 15px;" alt="facebook icon" src="asserts/images/facebook-icon.svg"></a>
+                    <a class="social-media-icons" href="https://www.instagram.com/ilsa.interactive/"><img style="margin-right: 15px;" alt="instagram icon" src="asserts/images/instagram-icon.svg"></a>
+                    <a class="social-media-icons" href="https://twitter.com/ilsainteractive"><img style="margin-right: 15px;" alt="twitter icon" src="asserts/images/x-icon.svg"></a>
+                </div>
+                <footer>
+                    <div class="powered-by-ilsa push-right">Powered and Designed by <span class="red-text">ilsa</span> interactive</div>
+                </footer>
+            </div>
+           
+        </div>
+    </div>
+</body>
+<script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
+</html>

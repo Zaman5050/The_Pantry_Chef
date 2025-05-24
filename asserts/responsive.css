@@ -1,0 +1,154 @@
+/*------------------------------------------- home------------------------------------------ */
+@media (max-width:767px) {
+    #navbar-hamburger-menue{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    img.home-img{
+        /* max-width: 360px; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .home-right-container {
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .push-right {
+        justify-content: center;
+
+    }
+    .home-sub-heading {
+        font-size: 20px;
+    }
+    .home-main-heading {
+        text-align: center;
+        font-size: 70px;
+    }
+    .powered-by-ilsa {
+        font-size: 10.444px;
+    }
+    .cheff-padding {
+        padding-bottom: 50px;
+    }
+    /* -------------------about----------------------- */
+    .about-scroll-page {
+        flex-direction: column;
+        padding: 0 20px 50px 30px;
+    }
+    .about-img-recipe-app {
+        margin: auto;
+    }
+    .about-scroll-page-2 {
+        flex-direction: column;
+        padding: 0 20px 50px 30px;
+    }
+    .about-scroll-page-2 img{
+        width: 100%;
+    }
+    /* .about-main-content-container {
+        padding: 77px 106px 79px 106px;
+    } */
+    .about-main-heading {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .about-paragraph {
+        font-size: 20px;
+    }
+    .scroll-page-content-side ol li{
+        font-size: 15px;
+    }
+    .about-main-content-container {
+        padding: 101px 20px 50px 20px;
+    }
+    .about-sub-heading {
+        font-size: 30px;
+    }
+    .about-sub-heading {
+        font-size: 30px;
+    }
+    .about-sub-heading {
+        padding: 10px 0 10px 30px;
+    }
+    /* ----------------------------------case study-------------------------- */
+    .case-study-container {
+        padding: 101px 20px 50px 30px;
+    }
+    .case-study-img-container {
+        justify-content: center;
+    }
+    .case-study-sub-heading{
+        font-size: 20px;
+    }
+    .case-study-img-container img{
+        height: 200px;
+    }
+    .case-study-container h3 {
+        margin-bottom: 10px;
+    }
+    .case-study-details-container li{
+        font-size: 15px;
+    }
+    .case-study-last-paragraph{
+        font-size: 15px;
+    }
+    /* ---------------------------how we think-------------------------------- */
+    .how-we-think-container {
+        padding: 101px 20px 50px 20px;
+    }
+    .how-we-think-inner-container {
+        flex-direction: column;
+    }
+    .how-we-think-container-2 {
+        padding: 49px 20px 50px 20px;
+    }
+    .how-we-think-think-paragraph {
+        font-size: 15px;
+    }
+    h3.about-sub-heading.p-0.mb-4{
+        margin-bottom: 10px !important;
+    }
+    /* ------------------contact us ----------------------------- */
+    .contact-us-container {
+        padding: 101px 20px 50px 20px;
+    }
+    .contact-us-inner-icons-container {
+        display: block;
+    }
+    .website-link {
+        margin-bottom: 10px;
+    }
+    .e-mail{
+        margin-bottom: 10px;
+    }
+    .contact-us-heading{
+        margin-top: 30px;
+    }
+}    
+@media (max-width: 1165px) {
+    .home-main-content-container {
+        flex-direction: column;
+    }
+}
+/* ---------------- */
+@media (max-width: 1255px) {
+    .how-we-think-inner-container {
+        /* flex-direction: column; */
+    }
+    .how-we-think-paragraph-height {
+        height: unset;
+    }
+    .left-right-paragraph-container {
+        max-width: 100%;
+    }
+    .how-we-think-inner-container img{
+        width: 100%;
+    }
+    .how-we-think-container-2 img{
+        width: 100%;
+    }
+}
